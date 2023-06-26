@@ -142,4 +142,4 @@ def body_mass_index(weight, height):
     weight_kgs = weight*0.453592
     height_m=height[0]*0.3048+height[1]*0.0254
     bmi=weight_kgs/(height_m)**2
-    return bmi
+    return float(bmi)
